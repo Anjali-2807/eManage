@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste Management App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="loginPage" class="page">
+        <header>
+            <h1>E-Waste Management App</h1>
+        </header>
+        <main>
+            <p>(Just click on login to view the prototype, no need to enter any id)</p>
+            <input type="text" placeholder="Enter ID">
+            <button id="loginBtn">Log In</button>
+        </main>
+    </div>
+
+    <div id="infoPage" class="page hidden">
+        <header>
+            <button class="backBtn">&lt; Back</button>
+            <h1>Information</h1>
+        </header>
+        <main>
+            <h2 style="color: #004d40;">Components of E-Waste</h2>
+            <p>Information about different components...</p>
+            <h2 style="color: #00796b;">Recycle, Reuse, Reduce</h2>
+            <p>Ways to recycle, reuse, and reduce...</p>
+            <h2 style="color: #004d40;">Health Hazards</h2>
+            <p>Health hazards of different components...</p>
+            <h2 style="color: #00796b;">Safe Lifetime</h2>
+            <p>Lifetime up to which they are safe...</p>
+            <button id="nextBtn">Next</button>
+        </main>
+    </div>
+
+    <div id="centerPage" class="page hidden">
+        <header>
+            <button class="backBtn">&lt; Back</button>
+            <h1>Management Centers</h1>
+        </header>
+        <main>
+            <div class="center-list">
+                <div class="center-item">
+                    <h2 style="color: #004d40;">Centre 1</h2>
+                    <p>Address: XYZ Street, City</p>
+                    <button class="applyBtn">Apply</button>
+                </div>
+                <div class="center-item">
+                    <h2 style="color: #00796b;">Centre 2</h2>
+                    <p>Address: ABC Street, City</p>
+                    <button class="applyBtn">Apply</button>
+                </div>
+                <!-- Add more center items as needed -->
+            </div>
+        </main>
+    </div>
+
+    <div id="thankYouPage" class="page hidden">
+        <header>
+            <button class="backBtn">&lt; Back</button>
+            <h1>Thank You</h1>
+        </header>
+        <main>
+            <p style="color: #004d40;">Your pickup has been scheduled.</p>
+            <p style="color: #00796b;">Thank you for contributing to a greener environment!</p>
+            <p style="color: #004d40;">"The greatest threat to our planet is the belief that someone else will save it." - Robert Swan</p>
+            <div class="bubble-container">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
