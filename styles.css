@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.page {
+    width: 90%;
+    max-width: 600px;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    padding: 20px;
+    background: #e0f7fa;
+}
+
+#loginPage {
+    background-color: #c8e6c9; /* Light green background */
+}
+
+#infoPage {
+    background-color: #bbdefb; /* Light blue background */
+}
+
+#thankYouPage {
+    background-color: #b2dfdb; /* Light aqua green background */
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #004d40;
+}
+
+h2 {
+    color: #00796b;
+}
+
+p {
+    color: #004d40;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.backBtn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.center-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.center-item {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.applyBtn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.applyBtn:hover {
+    background-color: #004d40;
+}
+
+.bubble-container {
+    position: relative;
+}
+
+.bubble {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 121, 107, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    animation: float 4s ease-in-out infinite;
+}
+
+.bubble:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    animation-duration: 5s;
+}
+
+.bubble:nth-child(3) {
+    width: 20px;
+    height: 20px;
+    left: 80%;
+    animation-duration: 3s;
+}
+
+.bubble:nth-child(4) {
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    animation-duration: 4s;
+}
+
+.bubble:nth-child(5) {
+    width: 30px;
+    height: 30px;
+    left: 70%;
+    animation-duration: 3.5s;
+}
+
+@keyframes float {
+    0% {
+        bottom: -50px;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        bottom: 100%;
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
