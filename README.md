@@ -1,2 +1,2 @@
 # eManage
-This is a prototype
+This is a prototype.
