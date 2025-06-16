@@ -1,2 +1,2 @@
-# eManage [WIP]
+# eManage
 This is a prototype
